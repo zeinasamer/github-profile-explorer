@@ -52,7 +52,7 @@ Search GitHub users, browse their repositories, compare two profiles, save perso
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/github-profile-explorer.git
+git clone https://github.com/zeinasamer/github-profile-explorer.git
 ```
 
 Go into the project
