@@ -1,12 +1,14 @@
 export type GitHubUser = {
   login: string;
-  name: string | null;
   avatar_url: string;
-  bio: string | null;
+  name: string;
+  bio: string;
   followers: number;
   following: number;
-  created_at: string;
   public_repos: number;
+  public_gists: number;
+  company: string | null;
+  location: string | null;
 };
 
 export type GitHubRepo = {
